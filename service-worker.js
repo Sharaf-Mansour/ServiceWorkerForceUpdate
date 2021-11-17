@@ -26,18 +26,21 @@ async function onActivate(event) {
         .map(key => caches.delete(key)));
 }
 async function onFetch(event) {
+    let x;
     if (navigator.onLine) {
+        
         try {
-            return fetch(event.request);
+            x = fetch(event.request);
 
         }
         catch {
-            return await caches.open(cacheName);
+            x = await caches.open(cacheName);
 
         }
     }
     else {
-        return await caches.open(cacheName);
+        x = await caches.open(cacheName);
     }
+    return x;
 
-}/* Manifest version: zAgD9xx0 */
+}/* Manifest version: rtAFICdX */

@@ -26,21 +26,22 @@ async function onActivate(event) {
         .map(key => caches.delete(key)));
 }
 async function onFetch(event) {
-    let x;
-    if (navigator.onLine) {
+    return fetch(event.request).catch(caches.open(cacheName));
+
+    //let x;
+    //if (navigator.onLine) {
         
-        try {
-            x = fetch(event.request);
+    //    try {
+    //        x = 
+    //    }
+    //    catch {
+    //        x = await caches.open(cacheName);
 
-        }
-        catch {
-            x = await caches.open(cacheName);
-
-        }
-    }
-    else {
-        x = await caches.open(cacheName);
-    }
-    return x;
+    //    }
+    //}
+    //else {
+    //    x = await ;
+    //}
+    //return x;
 
 }

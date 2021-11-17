@@ -6,7 +6,7 @@
 	<ImplicitUsings>enable</ImplicitUsings>
 	<ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
   </PropertyGroup>
-	<PropertyGroup>
+	<!--<PropertyGroup>
 		<PublishTrimmed>true</PublishTrimmed>
 		<BlazorEnableTimeZoneSupport>false</BlazorEnableTimeZoneSupport>
 		<BlazorWebAssemblyPreserveCollationData>false</BlazorWebAssemblyPreserveCollationData>
@@ -20,7 +20,7 @@
 		<EnableUnsafeBinaryFormatterSerialization>false</EnableUnsafeBinaryFormatterSerialization>
 		<DebuggerSupport>false</DebuggerSupport>
 		<AutoreleasePoolSupport>false</AutoreleasePoolSupport>
-	</PropertyGroup>
+	</PropertyGroup>-->
 
 	<ItemGroup>
 	<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.0" />

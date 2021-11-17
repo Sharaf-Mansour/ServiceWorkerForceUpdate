@@ -28,4 +28,4 @@ async function onActivate(event) {
 async function onFetch(event) {
     if (!navigator.onLine) return await caches.open(cacheName);
     else return fetch(event.request);
-}/* Manifest version: yPKnw8uk */
+}/* Manifest version: kBP9NQ9k */

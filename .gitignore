@@ -829,3 +829,6 @@ bin/Debug/net6.0/wwwroot/_framework/System.IO.IsolatedStorage.dll
 bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.Watcher.dll.gz
 bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.Watcher.dll
 bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.Primitives.dll.gz
+.vs/ServiceWorkerForceUpdate/v17/.futdcache.v1
+.vs/ServiceWorkerForceUpdate/project-colors.json
+.vs/ServiceWorkerForceUpdate/DesignTimeBuild/.dtbcache.v2
